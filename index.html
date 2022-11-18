@@ -1,67 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
-      rel="stylesheet"
-    />
-    <title>Bootstrap Example</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
-  <body class="p-3 m-0 border-0 d-flex row">
-    <!-- Example Code -->
-    <div class="container col-9">
-      <div class="row"> 
-        <div class="col">
-        <div class="card text-center bg-warning ">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" class="btn btn-dark">мангар</a>
-        </div>
-      </div>
-        </div>
-        
 
-        <div class="col">
-        <div class="card text-center bg-secondary">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" class="btn btn-dark">мангар</a>
-        </div>
-      </div>
-        </div>
-        
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
 
-        <div class="col">
-        <div class="card text-center bg-success">
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" class="btn btn-dark">мангар</a>
+<body class="p-3 m-0 border-0 bd-example">
+  <!-- Example Code -->
+  
+
+  <nav class="navbar bg-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/images/logo2.svg" alt="Logo" width="auto" height="24" class="d-inline-block align-text-top" />
+
+      </a>
+
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="material-symbols-outlined">
+          menu
+          </span>
+      </button>
+
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header bg-dark">
+          <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">Menu</h5>
+
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      
+
         </div>
-      </div>
+
+        <div class="offcanvas-body bg-dark ">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#">Нүүр</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Бүтээгдэхүүн</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Үнийн санал</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Ашиглах заавар</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Холбоо барих</a>
+            </li>
+            <li><br /></li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <button type="button" class="btn btn-success" >
+                  NaviMarket GPS | Google Playstore
+                </button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://play.google.com/store/apps/details?id=mn.wemaps.plus"><button
+                  type="button" class="btn btn-success ">Wemaps GPS | Google
+                  Playstore</button></a>
+            </li>
+          </ul>
         </div>
-        
       </div>
     </div>
+  </nav>
+ 
 
-    <!-- End Example Code -->
-  </body>
+  <!-- End Example Code -->
+</body>
+
 </html>
