@@ -1,15 +1,15 @@
 
     @media only screen and (max-width: 600px) {
     body{
-        background-image: url("images/image5.png");
+        /* background-image: url("images/image5.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
     }
     .main-txt{
-        height: 120px;
+        
         position: relative;
-        right: 5px;
-        top: 20px;
+        text-align: center;
+        margin-top: 20px;
         /* border: 1px solid salmon; */
         
     }
@@ -27,15 +27,22 @@
         font-size: 16px;
     
     }
+    .center {
+        position: absolute;
+        top: 0%;
+        left: -3%;
+        /* transform: translate(-50%, -50%); */
+      }
+    
 }
     @media only screen and (max-width: 470px) {
     body{
-        background-image: url("images/image5.png");
+        /* background-image: url("images/image5.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; */
     }
     .main-txt{
-        height: 120px;
+        
         position: relative;
         left: 10px;
         top: 0px;
@@ -59,16 +66,11 @@
   }
 
   @media only screen and (max-width: 400px) {
-    .main-txt {
-        margin-bottom: 0px;
-        position: relative;
-        top: 0px;
-        
-    }
-    .main-txt1 h1{
+    
+    .center h1{
         font-size: 25px;
     }
-    .main-txt1 p{
+    .center p{
         font-size: 11px;
     }
 }
