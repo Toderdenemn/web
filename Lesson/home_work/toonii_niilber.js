@@ -1,9 +1,7 @@
 // n gesen let deer promt-oor too avna
-let n = prompt("Дурын тоогоо оруулна уу.."); 
-// sum gesen let deer n-iig duudna
-let sum = Number(n);
-// herew sum.n 0-oos baga baiwal
-if(0>sum){
+let number = prompt("Дурын тоогоо оруулна уу.."); 
+// herew number.n 0-oos baga baiwal
+if(0>number){
     // console deer yu ch haruulahgui uchir.n 0-oos doosh too bhgui
     console.log();
 } 
@@ -13,29 +11,27 @@ else{
     let x = 0;
     // let zaralsanii daraa while buyu davtamj zarlaad tuunii nuhtsliig
     // ugugdsun too.n y-s ih baiwal y let deer negiig nemeed y-gaa x deer nemne
-    // ingesneer undsendee x let deer neg geneer nemegdseer sum buyu ugugdsun tootoi ijil toond hurhed
+    // ingesneer undsendee x let deer neg geneer nemegdseer number buyu ugugdsun tootoi ijil toond hurhed
     // davtamj zogson console deer x let-g haruulna.
-    while(y < sum){
+    while(y < number){
         y = y+1;
         x = x+y;
     }
-    console.log(`${x}`);
+    console.log(x);
 
 }
 
 
-// let n = prompt("Дурын тоогоо оруулна уу.."); 
-// let sum = Number(n);
-
-// if(0>sum){
+// let number = prompt("Дурын тоогоо оруулна уу.."); 
+// if(0>number){
 //     console.log();
 // } 
 // else{
 //     let y = 0;
 //     let x = 0;
-//     while(y < sum){
+//     while(y < number){
 //         y = y+1;
 //         x = x+y;
 //     }
-//     console.log(`${x}`);
+//     console.log(x);
 // }
