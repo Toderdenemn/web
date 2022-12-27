@@ -1,0 +1,33 @@
+<html>
+<head>
+    <style>
+        li{
+            border: 1px solid black;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <ol id="todos"></ol>
+
+    <script>
+        const todoEl = document.getElementById('todos');
+
+        fetch('https://jsonplaceholder.typicode.com/todos')
+            .then((res) => {
+                if (res.ok) {
+                    return res.json();
+                }
+            })
+            .then((todos) => {
+                for (let i = 0; i < todos.length; i++) {
+                    const signleTodo = document.createElement('li');
+                    signleTodo.innerHTML = todo[i].title;
+                    todoEl.append(singleTodo);
+                }
+            });
+    </script>
+</body>
+
+</html>
